@@ -1,7 +1,6 @@
 [![crates.io](https://img.shields.io/crates/v/rpm.svg)](https://crates.io/crates/rpm)
 [![docs.rs](https://docs.rs/rpm/badge.svg)](https://docs.rs/rpm)
 [![MSRV](https://img.shields.io/badge/rustc-1.88.0+-ab6000.svg)](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)
-[![PyPI](https://img.shields.io/pypi/v/rpm-rs.svg)](https://pypi.org/project/rpm-rs/)
 
 ## RPM-RS
 
@@ -31,7 +30,6 @@ RPM has a lot of features. I do not want to re-implement all of them.
 - [x] RPM Signing and Signature Verification
 - [x] RPM signing using an external signing service or Hardware Signing Module (HSM)
 - [x] High-level APIs for parsing RPM files, reading RPM metadata, and extracting payloads
-- [x] Python bindings
 
 ### Examples
 

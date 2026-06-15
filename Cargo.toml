@@ -41,7 +41,6 @@ required-features = ["signature-meta"]
 path = "tests/signatures.rs"
 
 [dependencies]
-pyo3 = { version = "0.28", optional = true }
 base64 = "0.22"
 bitflags = "2"
 thiserror = "2"
@@ -89,7 +88,6 @@ default = [
 ]
 
 payload = []
-python = ["pyo3/extension-module", "pyo3/abi3-py310", "liblzma?/static", "payload", "signature-pgp", "rpm-version/python"]
 
 gzip-compression = ["flate2"]
 zstd-compression = ["zstd"]

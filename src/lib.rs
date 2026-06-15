@@ -454,6 +454,3 @@ pub use crate::constants::*;
 
 mod rpm;
 pub use crate::rpm::*;
-
-#[cfg(feature = "python")]
-pub mod python;
