@@ -8,6 +8,7 @@ mod headers;
 mod package;
 #[cfg(feature = "payload")]
 mod payload;
+mod solve;
 mod timestamp;
 #[cfg(feature = "payload")]
 mod util;
@@ -19,6 +20,8 @@ pub use headers::*;
 pub use compressor::*;
 
 pub use package::*;
+
+pub use solve::*;
 
 #[cfg(feature = "payload")]
 pub use builder::*;
